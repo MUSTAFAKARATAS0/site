@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Cartoonify.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +18,7 @@ function Home2() {
               Kendimi <span className="purple"> Tanıtayım </span> 
             </h1>
             <p className="home-about-body">
-              Programlamayı seviyorum ve en azından bir şeyler öğrendiğimi düşünüyorum.
+              OĞULCANI YERİMS
               <br />
               
               
@@ -35,7 +34,7 @@ function Home2() {
                Çerçeveler ile ürün geliştirmeye olan tutkumu da uyguluyorum.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
