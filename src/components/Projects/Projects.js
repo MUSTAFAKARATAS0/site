@@ -16,7 +16,7 @@ function Projects() {
         <h1 className="project-heading">
           Yaptığım Bazı <strong className="purple">Projeler </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "#1f4758" }}>
         Yaptığım veya içinde yer aldığım projelerden bazıları.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
