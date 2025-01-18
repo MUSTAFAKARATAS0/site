@@ -6,6 +6,30 @@ import Particle from "../Particle";
 // Proje verilerinin saklandığı bir dizi. Bu yapı kod tekrarını önler ve yönetimi kolaylaştırır.
 const projects = [
   {
+    // Proje 3: Gezilecek yerleri gösteren bir web sitesi
+    imgPath: require("../../Assets/Projects/5Z2eP5Tfe0anTWCtliOV2v.webp"),
+    title: "World Of Wonders",
+    description:
+      "React, NodeJs ve MongoDB kullanarak yapmış olduğum Dünya üzerindeki gezilecek yerleri gösteren web Sitesi.",
+    ghLink: "https://github.com/MUSTAFAKARATAS0/WorldOfWonders",
+  },
+  {
+    // Proje 5: Limanlar arası en kısa deniz yolu mesafesini bulan bir uygulama
+    imgPath: require("../../Assets/Projects/images (2).jpeg"),
+    title: "Maritime-Trade-Routes-Optimization",
+    description:
+      "Python ve Graph algoritmaları kullanarak seçilen iki liman arasındaki en kısa deniz yolu mesafesini gösteren web projesi.",
+    ghLink: "https://github.com/MUSTAFAKARATAS0/Maritime-Trade-Routes-Optimization",
+  },
+  {
+    // Proje 4: Film bilgilerini sunan bir mobil uygulama
+    imgPath: require("../../Assets/Projects/images (1).jpeg"),
+    title: "F Arsiv",
+    description:
+      "React Native, NodeJs ve MongoDB kullanarak yapmış olduğum, insanların filmleri görüp, hakkında bilgi alabildiği bir mobil app.",
+    ghLink: "https://github.com/MUSTAFAKARATAS0/F-Arsiv",
+  },
+  {
     // Proje 1: Köpek fotoğraflarını analiz eden görüntü işleme projesi
     imgPath: require("../../Assets/Projects/images.jpeg"),
     title: "Dog Scope",
@@ -21,30 +45,9 @@ const projects = [
       "CNN algoritması ile fundus makinelerinden çekilen retina görüntülerinde diyabet olup olmadığını anlayan makine öğrenmesi projesi.",
     ghLink: "https://github.com/MUSTAFAKARATAS0/Diabetic-Retinopathy",
   },
-  {
-    // Proje 3: Gezilecek yerleri gösteren bir web sitesi
-    imgPath: require("../../Assets/Projects/5Z2eP5Tfe0anTWCtliOV2v.webp"),
-    title: "World Of Wonders",
-    description:
-      "React, NodeJs ve MongoDB kullanarak yapmış olduğum Dünya üzerindeki gezilecek yerleri gösteren Web Sitesi.",
-    ghLink: "https://github.com/MUSTAFAKARATAS0/WorldOfWonders",
-  },
-  {
-    // Proje 4: Film bilgilerini sunan bir mobil uygulama
-    imgPath: require("../../Assets/Projects/images (1).jpeg"),
-    title: "F Arsiv",
-    description:
-      "React Native, NodeJs ve MongoDB kullanarak yapmış olduğum, insanların filmleri görüp, hakkında bilgi alabildiği bir mobil projesi.",
-    ghLink: "https://github.com/MUSTAFAKARATAS0/F-Arsiv",
-  },
-  {
-    // Proje 5: Limanlar arası en kısa deniz yolu mesafesini bulan bir uygulama
-    imgPath: require("../../Assets/Projects/images (2).jpeg"),
-    title: "Maritime-Trade-Routes-Optimization",
-    description:
-      "Python ve Graph algoritmaları kullanarak seçilen iki liman arasındaki en kısa deniz yolu mesafesini gösteren uygulama.",
-    ghLink: "https://github.com/MUSTAFAKARATAS0/Maritime-Trade-Routes-Optimization",
-  },
+  
+ 
+  
 ];
 
 function Projects() {
@@ -55,7 +58,7 @@ function Projects() {
       <Container>
         {/* Başlık kısmı */}
         <h1 className="project-heading">
-          Yaptığım Bazı <strong className="purple">Projeler</strong>
+          Yaptığım  <strong className="purple">Projeler</strong>
         </h1>
         <p style={{ color: "#1f4758" }}>
           Yaptığım veya içinde yer aldığım projelerden bazıları.

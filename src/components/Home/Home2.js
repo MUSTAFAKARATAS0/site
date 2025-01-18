@@ -16,20 +16,18 @@ function Home2() {
               Kendimi <span className="purple"> Tanıtayım </span> 
             </h1>
             <p className="home-about-body">
-              OĞULCANI YERİMS
+              Yazlım alanına lise döneminde başlamış meraklı, çalışkan, tutkulu bir yazılım mühendisliği öğrencisiyim.
+              Üniversite hayatım boyunca da sürekli gelişmeye açık bir şekilde yeni bilgiler edindim.
               <br />
-              
-              
-              
+          
               <br />
+              Yeni Web Teknolojileri ve ürünleri geliştirmek, bu konudaki güncel haberleri ve teknolojleri araştırmak, ayrıca 
+              Görüntü İşleme, Makine Öğrenmesi gibi alanımdan farklı konularda başka alanları da merak ettiğim için yapmış olduğum bazı araştırmalar ve projeler ilgi alanlarım arasında yer almaktadır..           
               <br />
-              İlgi alanlarım arasında yeni Web Teknolojileri ve ürünleri geliştirmek ayrıca 
-              Görüntü İşleme ve Makine Öğrenmesi ile ilgili alanlar yer almaktadır.
-             
+
               <br />
-              <br />
-              Mümkün olduğunda, Node.js ve Modern Javascript Kütüphanesi ve React.js ve Next.js gibi
-               Çerçeveler ile ürün geliştirmeye olan tutkumu da uyguluyorum.
+              Çoğu zaman Node.js, Modern Javascript Kütüphaneleri, React.js ve Next.js gibi
+               teknolojiler ile ürün geliştirmeye olan tutkumu da uyguluyorum.
             </p>
           </Col>
           
