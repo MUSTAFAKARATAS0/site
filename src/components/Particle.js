@@ -1,55 +1,58 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
+// Particle bileşeni: Sayfanın arka planında hareketli partikül efektleri oluşturur.
 function Particle() {
   return (
     <Particles
-      id="tsparticles"
+      id="tsparticles" // Bu ID, partikül efektlerini tanımlamak için kullanılır.
       params={{
         particles: {
+          // Partikül özellikleri
           number: {
-            value: 160,
+            value: 160, // Sayfada yer alacak toplam partikül sayısı
             density: {
-              enable: true,
-              value_area: 1500,
+              enable: true, // Partikül yoğunluğunu etkinleştirir.
+              value_area: 1500, // Partiküllerin yoğun olarak yerleşeceği alan büyüklüğü
             },
           },
           line_linked: {
-            enable: false,
-            opacity: 0.03,
+            enable: false, // Partiküller arasında çizgi bağlantılarını devre dışı bırakır.
+            opacity: 0.03, // Çizgi bağlantıları etkinse, bağlantıların şeffaflık seviyesi
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "right", // Partiküllerin hareket yönü (sağa doğru)
+            speed: 0.05, // Partiküllerin hareket hızı
           },
           size: {
-            value: 1,
+            value: 1, // Partiküllerin boyutu
           },
           opacity: {
             anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
+              enable: true, // Opaklık animasyonunu etkinleştirir.
+              speed: 1, // Opaklık değişim hızı
+              opacity_min: 0.05, // Minimum opaklık değeri
             },
           },
         },
         interactivity: {
+          // Kullanıcı ile etkileşim özellikleri
           events: {
             onclick: {
-              enable: true,
-              mode: "push",
+              enable: true, // Tıklama olayını etkinleştirir.
+              mode: "push", // Tıklama sırasında yeni partiküller oluşturur.
             },
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 1, // Her tıklamada oluşturulacak partikül sayısı
             },
           },
         },
-        retina_detect: true,
+        retina_detect: true, // Retina ekranlar için destek
       }}
     />
   );
 }
 
-export default Particle;
+export default Particle; // Bileşeni dışa aktarır, böylece başka dosyalarda kullanılabilir.
