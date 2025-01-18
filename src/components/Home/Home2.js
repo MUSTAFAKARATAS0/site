@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Cartoonify.svg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -34,11 +32,7 @@ function Home2() {
                Çerçeveler ile ürün geliştirmeye olan tutkumu da uyguluyorum.
             </p>
           </Col>
-          <Col md={3} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

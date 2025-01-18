@@ -403,7 +403,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(111, 142, 154);
+  background-color: rgb(46, 46, 46);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -552,7 +552,7 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 5.5em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;

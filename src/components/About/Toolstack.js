@@ -1,14 +1,11 @@
 import React from "react";
-import { SomeIcon } from "react-icons/si"; // Örnek bir import işlemi
-import { SiJavascript } from "react-icons/si";
 
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
   SiPostman,
   SiTrello,
-  SiNetlify,
   SiGithub,
+  SiVercel,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -24,7 +21,7 @@ function Toolstack() {
         <SiTrello />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify/>
+        <SiVercel/>
       </Col>
     </Row>
   );
