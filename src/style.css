@@ -98,7 +98,8 @@ button:focus {
 
 .navbar-toggler {
   /* Navbar aç/kapa düğmesi için stil ayarları */
-  position: relative !important;
+  position: absolute !important;
+  right: 15px;
   background-color: transparent !important; /* Şeffaf arka plan */
   border-color: transparent !important; /* Şeffaf kenarlık */
 }
@@ -156,7 +157,7 @@ button:focus {
 @media (max-width: 767px) {
   .navbar {
     /* Küçük ekranlar için navbar ayarları */
-    padding: 1rem 2rem !important; /* İç boşluk */
+    padding: 0.2rem 1rem !important; /* İç boşluk */
     font-size: 1.4rem !important; /* Yazı boyutu */
     background-color: #eeeded00 !important; /* Şeffaf arka plan */
     backdrop-filter: blur(15px) !important; /* Daha fazla bulanıklık */
@@ -194,7 +195,7 @@ button:focus {
 @media (max-width: 767px) {
   .nav-link {
     /* Küçük ekranlarda bağlantı iç boşluk ayarları */
-    padding: 0.7rem 1rem !important;
+    padding: 0.4rem 1rem !important;
   }
 }
 
@@ -349,9 +350,13 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
-    padding: 2em 0 !important;
-  }
+  
+.home-about-body {
+  /* Hakkında metin */
+  padding-top: 200px;
+  font-size: 1.2em !important;
+  text-align: left;
+}
 }
 
 .home-about-section {
@@ -372,7 +377,7 @@ button:focus {
   /* Hakkında metin */
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align:center;
 }
 
 .home-about-social {

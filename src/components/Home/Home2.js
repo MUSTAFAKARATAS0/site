@@ -16,7 +16,7 @@ function Home2() {
               Kendimi <span className="purple"> Tanıtayım </span> 
             </h1>
             <p className="home-about-body">
-              Yazlım alanına lise döneminde başlamış meraklı, çalışkan, tutkulu bir yazılım mühendisliği öğrencisiyim.
+                 Yazlım alanına lise döneminde başlamış meraklı, çalışkan, tutkulu bir yazılım mühendisliği öğrencisiyim.
               Üniversite hayatım boyunca da sürekli gelişmeye açık bir şekilde yeni bilgiler edindim.
               <br />
           
