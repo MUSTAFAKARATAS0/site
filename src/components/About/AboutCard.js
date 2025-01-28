@@ -13,16 +13,16 @@ function AboutCard() {
             
             <br />
             Fırat Üniversitesi Yazılım Mühendisliği 4. sınıf öğrencisiyim.
+            </p>
             <br />
-            <br />
-           İşte kodlama dışında sevdiğim aktvitelerden bazıları:
-          </p>
+           {/* İşte kodlama dışında sevdiğim aktvitelerden bazıları:
+          
           <ul>
           <li className="about-activity">
-              <ImPointRight /> Film izlemek
+              <ImPointRight /> Film İzlemek
             </li>
             <li className="about-activity">
-              <ImPointRight /> Futbol maçları
+              <ImPointRight /> Futbol Oynamak
             </li>
             <li className="about-activity">
               <ImPointRight /> Bilgisayar Oyunları
@@ -34,7 +34,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Yeni Yerler Görmek
             </li>
-          </ul>
+          </ul> */}
         </blockquote>
       </Card.Body>
     </Card>

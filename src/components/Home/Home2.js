@@ -16,13 +16,13 @@ function Home2() {
               Kendimi <span className="purple"> Tanıtayım </span> 
             </h1>
             <p className="home-about-body">
-                 Yazlım alanına lise döneminde başlamış meraklı, çalışkan, tutkulu bir yazılım mühendisliği öğrencisiyim.
+                 Yazılım alanına lise döneminde başlamış meraklı, çalışkan, tutkulu bir yazılım mühendisliği öğrencisiyim.
               Üniversite hayatım boyunca da sürekli gelişmeye açık bir şekilde yeni bilgiler edindim.
               <br />
           
               <br />
-              Yeni Web Teknolojileri ve ürünleri geliştirmek, bu konudaki güncel haberleri ve teknolojleri araştırmak, ayrıca 
-              Görüntü İşleme, Makine Öğrenmesi gibi alanımdan farklı konularda başka alanları da merak ettiğim için yapmış olduğum bazı araştırmalar ve projeler ilgi alanlarım arasında yer almaktadır..           
+              Yeni Web ve Mobil teknolojileri öğrenmek ve ürünler geliştirmek, bu konudaki güncel haberleri ve teknolojleri araştırmak, ayrıca 
+              Görüntü İşleme, Makine Öğrenmesi gibi alanımdan farklı konularda başka alanları da merak ettiğim için yapmış olduğum bazı araştırmalar ve projeler ilgi alanlarım arasında yer almaktadır.         
               <br />
 
               <br />
