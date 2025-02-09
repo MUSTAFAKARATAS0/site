@@ -65,6 +65,34 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
+
+            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/win"
+                onClick={() => updateExpanded(false)} // Hakkında bağlantısı
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> WİN
+              </Nav.Link>
+            </Nav.Item><Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/lose"
+                onClick={() => updateExpanded(false)} // Hakkında bağlantısı
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> LOSE
+              </Nav.Link>
+            </Nav.Item>
+
+
+
+
+
+
+
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
